@@ -161,13 +161,19 @@
 .places {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 228px;
 }
 
 .place {
   display: flex;
   flex-direction: row;
   width: 984px;
+  margin-bottom: 72px;
+}
+
+.place__two-columns {
+  display: flex;
+  flex-direction: column;
 }
 
 .place__title {
@@ -185,10 +191,11 @@
 }
 
 .place__website {
-  margin: 80px 0 60px;
+  margin: 65px 0 60px;
 }
 
 .place__url-heading {
+  margin: 0 0 16px;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;

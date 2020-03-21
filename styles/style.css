@@ -166,14 +166,22 @@
 
 .place {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 984px;
   margin-bottom: 72px;
 }
 
-.place__two-columns {
+.place__heading {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 0 0 60px;
+}
+
+.place__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
 }
 
 .place__title {
@@ -181,7 +189,8 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 65px;
-  margin: 0 43px 60px 0;
+  margin: 0;
+  width: 460px;
 }
 
 .place__image {
@@ -191,7 +200,7 @@
 }
 
 .place__website {
-  margin: 65px 0 60px;
+  margin-left: 45px;
 }
 
 .place__url-heading {
@@ -216,10 +225,20 @@
   color: #FFF;
 }
 
+
+.place__text {
+  display: flex;
+  flex-direction: column;
+}
+
 .place__paragraph {
   margin: 0 0 36px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
+}
+
+.place__paragraph:last-of-type {
+  margin: 0;
 }

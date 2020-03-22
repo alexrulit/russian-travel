@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 30px 128px 48px;
+  margin: 30px 0 48px;
 }
 
 .header__logo {
@@ -59,7 +59,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 228px;
+  margin: 0;
   padding: 0;
 }
 
@@ -139,7 +139,7 @@
 }
 
 .photo-grid {
-  margin: 0 128px 92px;
+  margin: 0 0 92px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -157,7 +157,7 @@
 }
 
 .places {
-  margin: 0 228px;
+  margin: 0;
 }
 
 .places-list {
@@ -279,7 +279,7 @@
 }
 
 .video {
-  margin: 0 128px;
+  margin: 0;
 }
 
 .video__container {
@@ -372,7 +372,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 128px;
+  margin: 0;
 }
 
 .comments__container {
@@ -457,7 +457,7 @@
 }
 
 .footer {
-  margin: 160px 128px 48px;
+  margin: 160px 0 48px;
   width: 1184px;
   display: flex;
   flex-direction: row;

@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1023px) {
   .lead__image {
-    max-width: 768px;
+    width: 768px;
     height: 420px;
     object-fit: cover;
   }
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 740px) {
   .lead__image {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 }

@@ -24,6 +24,6 @@
 
 @media screen and (max-width: 740px) {
   .video__url, .video__url:active, .video__url:visited, .video__url:link {
-    max-width: 100%;
+    width: 100%;
   }
 }

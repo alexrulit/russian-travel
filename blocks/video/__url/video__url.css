@@ -1,0 +1,29 @@
+.video__url, .video__url:active, .video__url:visited, .video__url:link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 583px;
+  height: 323px;
+  z-index: 2;
+  color: #FFF;
+}
+
+@media screen and (max-width: 1190px) {
+  .video__url, .video__url:active, .video__url:visited, .video__url:link {
+    width: 456px;
+    height: 288px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video__url, .video__url:active, .video__url:visited, .video__url:link {
+    width: 352px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .video__url, .video__url:active, .video__url:visited, .video__url:link {
+    max-width: 100%;
+  }
+}

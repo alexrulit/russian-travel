@@ -1,0 +1,22 @@
+.place__website {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 1190px) {
+  .place__website {
+    margin-left: 37px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__website {
+    margin-left: 38px;
+    margin-bottom: 11px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .place__website {
+    display: none;
+  }
+}

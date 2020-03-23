@@ -1,0 +1,15 @@
+.place__url {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration-line: underline;
+}
+
+.place__url:active, .place__url:visited, .place__url:link {
+  color: #FFF;
+}
+
+.place__url:hover {
+  opacity: 0.7;
+}

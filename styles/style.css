@@ -720,6 +720,10 @@
     top: 104px;
   }
 
+  .video__item:last-of-type .video__duration {
+    top: 82px;
+  }
+
   .video_icon-play {
     top: 25px;
     left: 25px;

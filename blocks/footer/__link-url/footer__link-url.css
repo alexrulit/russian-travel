@@ -1,0 +1,4 @@
+.footer__link-url, .footer__link-url:link, .footer__link-url:active, .footer__link-url:visited {
+  color: #FFF;
+  text-decoration: none;
+}

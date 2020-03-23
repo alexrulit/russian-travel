@@ -1,0 +1,4 @@
+.intro__paragraph {
+  display: flex;
+  flex-direction: row;
+}

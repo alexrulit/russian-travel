@@ -2,3 +2,8 @@
   color: #FFF;
   text-decoration: none;
 }
+
+.header__lang-url:hover {
+  opacity: 0.7;
+  transition: opacity ease-out .2s;
+}

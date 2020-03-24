@@ -5,27 +5,23 @@
 @import url(./__number/intro__number.css);
 
 .intro {
-  margin-right: 302px;
-  max-width: 683px;
+  width: 984px;
 }
 
 @media screen and (max-width: 1190px) {
   .intro {
-    max-width: 928px;
-    margin: 0 48px 0;
-    align-self: flex-start;
+    width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    align-self: center;
-    margin: 0;
+    width: 720px;
   }
 }
 
 @media screen and (max-width: 740px) {
   .intro {
-    max-width: calc(100% - 32px);
+    width: calc(100% - 32px);
   }
 }

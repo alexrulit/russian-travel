@@ -1,6 +1,7 @@
-@import url(./__bg/cover__bg.css);
+@import url(./__url/cover__url.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
 
 .cover {
   position: relative;
@@ -8,6 +9,9 @@
   height: 594px;
   margin-top: 102px;
   overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../images/dmitrii-vaccinium-22833-unsplash.jpg);
 }
 
 @media screen and (max-width: 1190px) {

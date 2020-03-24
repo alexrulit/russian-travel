@@ -1,0 +1,14 @@
+.cover__url, .cover__url:active, .cover__url:visited, .cover__url:link {
+  text-decoration: none;
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cover__url:hover {
+  background-color: rgba(0,0,0,.4);
+  transition: background-color ease-out .2s;
+}

@@ -2,28 +2,14 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 583px;
-  height: 323px;
+  width: 100%;
+  height: 100%;
   z-index: 2;
   color: #FFF;
+  border-radius: 5px;
 }
 
-@media screen and (max-width: 1190px) {
-  .video__url, .video__url:active, .video__url:visited, .video__url:link {
-    width: 456px;
-    height: 288px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .video__url, .video__url:active, .video__url:visited, .video__url:link {
-    width: 352px;
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .video__url, .video__url:active, .video__url:visited, .video__url:link {
-    width: 100%;
-  }
+.video__url:hover {
+  background-color: rgba(0,0,0,.3);
+  transition: background-color ease-out .2s;
 }

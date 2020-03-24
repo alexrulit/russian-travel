@@ -5,7 +5,6 @@
 @media screen and (max-width: 1023px) {
   .comment__image {
     width: 97px;
-    height: 97px;
     order: 0;
   }
 }

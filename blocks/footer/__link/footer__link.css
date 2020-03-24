@@ -1,5 +1,5 @@
 .footer__link {
-  margin-right: 18px;
+  margin-right: 20px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 740px) {
   .footer__link {
-    margin: 0 0 32px;
+    margin: 0 0 14px;
     font-size: 24px;
     line-height: 41px;
   }

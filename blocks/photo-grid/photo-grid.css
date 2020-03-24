@@ -34,3 +34,9 @@
     justify-items: center;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    grid-gap: 8px;
+  }
+}
